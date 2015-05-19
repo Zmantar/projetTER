@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="D:/TER/jgrib_beta7/jgrib_src.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jgrib_beta7/lib/jgrib.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jgrib_beta7/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jar/JMapViewer.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jar/JMapViewer_Demo.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jar/JMapViewer_src.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rihab/Downloads/netcdfAll-4.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/rihab/Downloads/jTileDownloader/jTileDownloader-0-6-1.jar"/>
+	<classpathentry kind="lib" path="D:/TER/jar/marvin/lib/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="D:/TER/MeteoTER/marvin/framework/marvin_1.5.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
