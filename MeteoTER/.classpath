@@ -11,6 +11,6 @@
 	<classpathentry kind="lib" path="C:/Users/rihab/Downloads/netcdfAll-4.6.jar"/>
 	<classpathentry kind="lib" path="C:/Users/rihab/Downloads/jTileDownloader/jTileDownloader-0-6-1.jar"/>
 	<classpathentry kind="lib" path="D:/TER/jar/marvin/lib/junit-4.7.jar"/>
-	<classpathentry kind="lib" path="D:/TER/MeteoTER/marvin/framework/marvin_1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/workspace/MeteoTER/marvin/framework/marvin_1.5.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
