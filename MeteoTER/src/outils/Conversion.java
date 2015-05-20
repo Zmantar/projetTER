@@ -12,6 +12,7 @@ public class Conversion {
 	
 	private final static double CONSTKNOTS = 1.9438444924574;
 	private final static double CONSTMS = 0.51444444444;
+	private final static double CONSTKH = 3.6;
 
 	private static String Termes;
 	
@@ -119,10 +120,14 @@ public class Conversion {
 		return Math.toDegrees(-Math.cos(direction * Math.PI / 180) * vitesse);
 	}
 	
-	
+	/**
+	 * Cette fonction converti la vitesse de m/s vers le km/h
+	 * @param vitesse
+	 * @return double
+	 */
 	public static double msToKmh (double vitesse)
 	{
-		return vitesse * 3.6;
+		return vitesse * CONSTKH;
 	}
 
 	/**

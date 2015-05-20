@@ -25,11 +25,12 @@ public class GribReader {
 	int nbx, nby;
 	GribRecordGDS r2;
 	GribRecord ventU, ventV;
-	ArrayList<StructureUV> list;
-	ArrayList<Double> listVitesse;
-	ArrayList<Integer> listForce;
+	ArrayList<StructureUV> list = new ArrayList<StructureUV>();
+	ArrayList<Double> listVitesse = new ArrayList<Double>();
+	ArrayList<Integer> listForce = new ArrayList<Integer>();
 	StructureUV uv;
 	int nbDate;
+	int k =0, i=0, l=0, j=0;
 	
 	public GribReader(){
 		
@@ -57,18 +58,16 @@ public class GribReader {
 				ventU = grb.getRecord(2);
 			}
 
-			list = new ArrayList<StructureUV>();
-			listVitesse = new ArrayList<Double>();
-			listForce = new ArrayList<Integer>();
+		
 
 			nbDate = grb.getDatesForTypeGridLevel(ventU.getType(), r2,
 					ventU.getLevel()).length;
 
-			int  l = 0;
+		
 
-			for (int k = 0; k < nbDate; k++) {
-				for (int i = 0; i < nbx; i++) {
-					for (int j = 0; j < nby; j++) {
+			for ( k = 0; k < nbDate; k++) {
+				for (i = 0; i < nbx; i++) {
+					for ( j = 0; j < nby; j++) {
 
 						uv = new StructureUV(grb.getRecord(
 								ventU.getType(),
