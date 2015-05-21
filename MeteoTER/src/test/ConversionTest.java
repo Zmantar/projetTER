@@ -9,7 +9,7 @@ import org.junit.Test;
 import outils.Conversion;
 /**
  * 
- * @author Arewa Rihab
+ * @author Arewa 
  * Cette classe permet de faire les tests unitaires de la conversion
  */
 public class ConversionTest {
@@ -53,33 +53,5 @@ public class ConversionTest {
 		assertEquals(7.7167, Conversion.knotsToMs(15),0.01);
 	}
 	
-	@Test
-	public void testUv_To_Direction() {
-		assertEquals(12891.5504, Conversion.uvToDirection(15, 15),0.01);
-	}
 	
-	
-	@Test
-	public void testUv_To_Vitesse() {
-		assertEquals(21.2133, Conversion.uvToVitesse(15, 15),0.01);
-	}
-	
-
-	@Test
-	public void testVitesse_Direction_To_U() {
-		assertEquals(-222.4386, Conversion.VitesseDirectionToU(15, 15),0.01);
-	}
-	
-	@Test
-	public void testVitesse_Direction_To_V() {
-		assertEquals(-830.1521, Conversion.VitesseDirectionToV(15, 15),0.01);
-	}
-
-	@Test
-	public void testCalculer_Force() {
-		assertEquals(10, (int)Conversion.calculer_Force(100));
-		assertEquals("Tempête", Conversion.getTermes());
-	}
-	
-
 }

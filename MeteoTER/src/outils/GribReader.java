@@ -85,9 +85,9 @@ public class GribReader {
 
 						list.add(j, uv);
 						
-						listVitesse.add(j, Conversion.uvToVitesse(uv.get_u(), uv.get_v()));
-						System.out.println(Conversion.calculer_Force(listVitesse.get(j)));
-						listForce.add(j, Conversion.calculer_Force(listVitesse.get(j)));
+						listVitesse.add(j, UtilPrevision.uvToVitesse(uv.get_u(), uv.get_v()));
+						System.out.println(UtilPrevision.calculer_Force(listVitesse.get(j)));
+						listForce.add(j, UtilPrevision.calculer_Force(listVitesse.get(j)));
 					}
 
 					

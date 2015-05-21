@@ -2,10 +2,16 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/workspace/MeteoTER/marvin/framework/marvin_1.5.1.jar"/>
-	<classpathentry kind="lib" path="C:/workspace/MeteoTER/Lib/jgrib.jar"/>
-	<classpathentry kind="lib" path="C:/workspace/MeteoTER/Lib/jgrib_src.jar"/>
-	<classpathentry kind="lib" path="C:/workspace/MeteoTER/Lib/junit-4.7.jar"/>
-	<classpathentry kind="lib" path="C:/workspace/MeteoTER/Lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/DossierGit/projetTER/MeteoTER/Lib/jgrib.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/DossierGit/projetTER/MeteoTER/Lib/jgrib_src.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/DossierGit/projetTER/MeteoTER/Lib/junit-4.7.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/DossierGit/projetTER/MeteoTER/Lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/DossierGit/projetTER/MeteoTER/marvin/framework/marvin_1.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/javaml-0.1.7.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/lib/ajt-2.9.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/lib/commons-math-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/lib/Jama-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/lib/libsvm.jar"/>
+	<classpathentry kind="lib" path="C:/SICLE/TER/outils/javaml-0.1.7/lib/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

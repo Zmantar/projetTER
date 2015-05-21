@@ -69,7 +69,7 @@ public class Filters extends JFrame {
 	}
 
 	private void loadImage() {
-		image = MarvinImageIO.loadImage("C:/Users/rihab/Desktop/url.png");
+		image = MarvinImageIO.loadImage("./img/amitié.jpg");
 		backupImage = image.clone();
 	}
 
